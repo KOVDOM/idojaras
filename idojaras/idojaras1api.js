@@ -21,8 +21,8 @@ function lekerdez(name) {
       var descValue = data['weather'][0]['description'];
     
       document.getElementById('main').innerHTML = nameValue;
-      document.getElementById('desc').innerHTML = "Desc - "+descValue;
-      document.getElementById('temp').innerHTML = "Temp - "+tempValue;
+      document.getElementById('desc').innerHTML = "Megjegyzés - "+descValue;
+      document.getElementById('temp').innerHTML = "Hőmérséklet - "+tempValue;
         console.log(tempValue);
       console.log(nameValue);
       console.log(descValue);
@@ -31,4 +31,4 @@ function lekerdez(name) {
         console.log(error);
         alert(error);
       })
-  };
+  };      
